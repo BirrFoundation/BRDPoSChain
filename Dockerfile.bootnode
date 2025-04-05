@@ -1,0 +1,24 @@
+FROM golang:1.22-alpine as builder
+
+RUN apk add --no-cache make gcc musl-dev linux-headers
+
+ADD . /BRDPoSChain
+RUN cd /BRDPoSChain && make bootnode
+
+RUN chmod +x /BRDPoSChain/build/bin/bootnode
+
+FROM alpine:latest
+
+LABEL maintainer="etienne@BRDPoSChain.com"
+
+WORKDIR /BRDPoSChain
+
+COPY --from=builder /BRDPoSChain/build/bin/bootnode /usr/local/bin/bootnode
+
+COPY docker/bootnode ./
+
+EXPOSE 30301
+
+ENTRYPOINT ["./entrypoint.sh"]
+
+CMD ["-verbosity", "6", "-nodekey", "bootnode.key", "--addr", ":30301"]

@@ -1,0 +1,47 @@
+# How to Mine Past Block 450 and Reach Block 901+ on BRDPoS Chain
+
+## Understanding the BRDPoS Consensus
+
+The BRDPoS Chain implements a two-phase consensus mechanism:
+1. Consensus v1: Blocks 0-900
+2. Consensus v2: Blocks 901+
+
+There is a transition gap at block 450, where the node will automatically stop. This is by design and part of the "gap" parameter in the BRDPoS configuration.
+
+## How to Mine to Block 901
+
+1. **Start the node** with:
+   ```
+   ./start-brdpos-3669.sh
+   ```
+
+2. **Let it mine until block ~450**, at which point it will stop automatically
+
+3. **Restart the node** with:
+   ```
+   ./start-brdpos-3669.sh
+   ```
+
+4. **Let it mine again** until it reaches block 900 (transition point) and then 901+
+
+Each restart resets the blockchain to block 0, but the mining behavior is consistent - it will always stop around block 450.
+
+## Monitoring Blockchain Progress
+
+You can monitor the blockchain's progress with:
+```
+./mine-past-transition.sh
+```
+or
+```
+./show-network-info.sh
+```
+
+## Key Transition Points
+
+- **Block 0-449**: Normal v1 consensus operation
+- **Block 450**: Gap point (node stops)
+- **Block 900**: Last v1 block/epoch switch
+- **Block 901+**: First v2 consensus block
+
+This behavior is normal and by design based on the BRDPoS consensus engine's implementation. 
