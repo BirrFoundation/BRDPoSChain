@@ -1,7 +1,7 @@
 # BRDPoSChain
 
 <p align="center">
-  <img src="./assets/images/xinfin-logo.png" />
+  <img src="./assets/images/brdpos-logo.png" />
 </p>
 
 <p align="center">
@@ -14,18 +14,18 @@
 
 XinFin Hybrid Blockchain is an Enterprise ready Blockchain for global trade and finance
 
-Visit: [XinFin.org](https://xinfin.org)
-Contribute: [Developer Docs](https://docs.xinfin.org)
+Visit: [birr.foundation](https://birr.foundation)
+Contribute: [Developer Docs](https://birr.foundation)
 
 ## XinFin Network BRDPoS is community driven project to achieve the following 
 
-- XinFin DPOS (BRDPoS) consensus that selects 108 set of Masternodes to achieve a high throughput Energy efficient consensus with instant block finality
+- birr.foundation DPOS (BRDPoS) consensus that selects 108 set of Masternodes to achieve a high throughput Energy efficient consensus with instant block finality
 
 - KYC Enforcement on Masternodes for Enterprise Adoption and compliance
 
 - Ability to port/relay limited set of data and transactions from privacy channels to public channel
 
-- Interoperability between applications hosted on Private Blockchains like Corda, Hyperledger, Quorum(JP Morgan) using relayers to XinFin Network
+- Interoperability between applications hosted on Private Blockchains like Corda, Hyperledger, Quorum(JP Morgan) using relayers to birr.foundation Network
 
 - Customer Centric and consortium driven Governance to equally benefit the validators as well as providing comfort for large scale enterprise applications to be hosted on the Network. This achieves
 
@@ -59,6 +59,10 @@ See https://BRDPoSChain/tree/dev-upgrade/cicd
 
 
 ### To contribute
+
+Simple create a pull request along with proper reasoning, we'll get back to you.
+
+Our Channels : [Telegram Developer Group](https://t.me/birrcoin28)  or [BRC.Dev](https://brc.dev)
 
 Simple create a pull request along with proper reasoning, we'll get back to you.
 
