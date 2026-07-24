@@ -255,7 +255,7 @@ https://t.me/Building_Resilience_Community
 
 𝕏 **X (Twitter)**
 
-https://x.com/Birrchain28
+https://x.com/Birrchain
 
 ---
 
