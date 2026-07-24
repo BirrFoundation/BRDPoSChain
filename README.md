@@ -251,11 +251,11 @@ https://rpc.birr.foundation
 
 💬 **Telegram**
 
-https://t.me/YOUR_TELEGRAM
+https://t.me/Building_Resilience_Community
 
 𝕏 **X (Twitter)**
 
-https://x.com/YOUR_ACCOUNT
+https://x.com/Birrchain28
 
 ---
 
