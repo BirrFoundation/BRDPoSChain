@@ -3,18 +3,7 @@
 > **Production Layer 1 • Chain ID 3669 • ~3s Block Time • Independent Network • Full EVM Compatibility**
 
 <p align="center">
-
-![Mainnet](https://img.shields.io/badge/Mainnet-Production-success)
-![Chain ID](https://img.shields.io/badge/Chain_ID-3669-blue)
-![Consensus](https://img.shields.io/badge/Consensus-BRDPoS-0A84FF)
-![EVM Compatible](https://img.shields.io/badge/EVM-Compatible-purple)
-![Finality](https://img.shields.io/badge/Finality-~3s-brightgreen)
-![Native Coin](https://img.shields.io/badge/Native-BRC-orange)
-
-</p>
-
-<p align="center">
-  <img src="./assets/images/brdpos-logo.png" width="180" alt="BRDPoSChain Logo"/>
+  <img src="./assets/images/brdpos-logo.png" width="1180" alt="BRDPoSChain Logo"/>
 </p>
 
 <h2 align="center">
