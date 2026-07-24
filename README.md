@@ -1,64 +1,265 @@
 # BRDPoSChain
 
+![Mainnet](https://img.shields.io/badge/Network-Mainnet-success)
+![Chain ID](https://img.shields.io/badge/Chain_ID-3669-blue)
+![EVM](https://img.shields.io/badge/EVM-Compatible-purple)
+![License](https://img.shields.io/badge/License-MIT-orange)
+![Solidity](https://img.shields.io/badge/Solidity-Supported-black)
+![Status](https://img.shields.io/badge/Status-Production-brightgreen)
+
 <p align="center">
-  <img src="./assets/images/brdpos-logo.png" />
+  <img src="./assets/images/brdpos-logo.png" width="180" alt="BRDPoSChain Logo"/>
+</p>
+
+<h3 align="center">
+The Protocol Powering BirrChain
+</h3>
+
+<p align="center">
+An independent, EVM-compatible Layer 1 blockchain engineered for digital identity,<br/>
+financial infrastructure, decentralized applications, and global value exchange.
 </p>
 
 <p align="center">
-  birr.foundation BRDPoSchain<br/>
-  Enterprise ready hybrid blockchain for global trade and finance
+<a href="https://birr.foundation">Website</a> •
+<a href="https://birr.foundation/docs">Documentation</a> •
+<a href="https://birr.foundation/explorer">Explorer</a> •
+<a href="https://rpc.birr.foundation">RPC Endpoint</a>
 </p>
-<br/>
 
-## birr.foundation Hybrid Blockchain
+---
 
-birr.foundation Hybrid Blockchain is an Enterprise ready Blockchain for global trade and finance
+# Overview
 
-Visit: [birr.foundation](https://birr.foundation)
-Contribute: [Developer Docs](https://birr.foundation)
+BRDPoSChain is the production blockchain protocol behind **BirrChain**, an independent Layer 1 network designed to serve as the financial operating system for the Internet.
 
-## birr.foundation Network BRDPoS is community driven project to achieve the following 
+Built with full EVM compatibility, BRDPoSChain enables developers to deploy Ethereum-compatible smart contracts while operating on its own validator network, consensus engine, governance model, and execution environment.
 
-- birr.foundation DPOS (BRDPoS) consensus that selects 108 set of Masternodes to achieve a high throughput Energy efficient consensus with instant block finality
+The protocol powers a growing ecosystem including digital identity, payments, remittance, decentralized finance, governance, staking, and enterprise applications.
 
-- KYC Enforcement on Masternodes for Enterprise Adoption and compliance
+---
 
-- Ability to port/relay limited set of data and transactions from privacy channels to public channel
+# Network Specifications
 
-- Interoperability between applications hosted on Private Blockchains like Corda, Hyperledger, Quorum(JP Morgan) using relayers to birr.foundation Network
+| Property | Value |
+|----------|-------|
+| Network | Production Mainnet |
+| Chain ID | **3669** |
+| Protocol | **BRDPoSChain** |
+| Native Coin | **BRC** |
+| Ecosystem Token | **BRX** |
+| Average Block Time | ~3 Seconds |
+| Consensus | BRDPoS |
+| Current Validators | 5 (Expanding to 28 → 108) |
+| Smart Contracts | Solidity / EVM Compatible |
 
-- Customer Centric and consortium driven Governance to equally benefit the validators as well as providing comfort for large scale enterprise applications to be hosted on the Network. This achieves
+---
 
-  - Rapid Upgradability
+# Core Principles
 
-  - DApps Standardisation for rapid commercialisation
+## Independent Layer 1
 
-  - Compliance with major global jurisdictions.
+BRDPoSChain operates as its own blockchain network with independent consensus, networking, validator infrastructure, state management, and governance.
 
-### KYC for masternodes
+It is **not a Layer 2**, **not secured by Ethereum**, and **not dependent on Ethereum**, while remaining fully compatible with the Ethereum Virtual Machine (EVM).
 
-#### OVERVIEW
+---
 
-To add a layer of KYC for masternodes in the current system and a sense of ownership amongst the masternodes hence tying such a cluster of masternodes to physical entity which can held accountable for its actions.
+## EVM Compatibility
 
-#### Design
+Developers can use familiar Ethereum tooling without modification.
 
-We established a bidirectional connection between a candidate and its owner inorder to retrieve a candidate belonging to a specific owner & vice versa.
+Supported development stack includes:
 
-All the masternodes are recognized by the KYC of their owners and hence are considered as a single verified entity ( for eg. while voting for invalid KYC, only one vote is considered per such cluster )
+- Solidity
+- Hardhat
+- Foundry
+- MetaMask
+- ethers.js
+- web3.js
+- OpenZeppelin
 
-The contract is very strict in handing out penalty for invalid KYC, it results loss of all funds invested in all of its candidates.
+---
 
-For eg. say A proposes condidates B,C,D by paying for its proposal cost.
-If at a later stage if some predecided amount of owners ( investors ) vote that a KYC for a A is invalid then A & all of its candidates (B,C,D) will lose their position & all their funds will be lost ( will remain with contract wallet ).  
+## Financial Operating System
 
-### For developers
+BirrChain is designed to provide the infrastructure required for modern decentralized finance and digital identity.
 
-#### Continues integration & delivery
-See https://BRDPoSChain/tree/dev-upgrade/cicd
+The ecosystem includes:
 
+- Digital Identity
+- Self-Custody Wallets
+- Payments
+- Remittance
+- Staking
+- Governance
+- Smart Contracts
+- Tokenized Assets
+- Cross-Chain Infrastructure
+- Enterprise APIs
 
-### To contribute
+---
+
+## Enterprise Ready
+
+BRDPoSChain was engineered with enterprise integration in mind.
+
+Key capabilities include:
+
+- Deterministic finality
+- High-throughput consensus
+- Validator accountability
+- Governance framework
+- Identity-aware validator onboarding
+- Private/Public interoperability
+- Modular protocol architecture
+- Upgradeable protocol design
+
+---
+
+# Consensus
+
+BRDPoS (Birr Delegated Proof of Stake) is the consensus protocol powering BRDPoSChain.
+
+The protocol is designed around validator accountability, rapid finality, and long-term network decentralization.
+
+Roadmap:
+
+- Current production validator set: **5**
+- Initial decentralization target: **28 Validators**
+- Long-term protocol capacity: **108 Validators**
+
+---
+
+# Protocol Architecture
+
+BRDPoSChain introduces a hierarchical protocol model built around:
+
+- Validators
+- Epochs
+- SuperBlocks
+- ClusterChains
+
+This layered architecture enables governance, validator incentives, protocol upgrades, and future scalability while maintaining deterministic network operation.
+
+---
+
+# Validator Identity (KYC)
+
+Enterprise adoption often requires accountable validator infrastructure.
+
+BRDPoSChain supports validator identity verification through an optional KYC framework.
+
+## Overview
+
+Validators may be linked to verified organizational identities while preserving decentralized network operation.
+
+This enables:
+
+- Institutional participation
+- Regulatory compliance where required
+- Validator accountability
+- Consortium deployments
+- Enterprise governance
+
+## Security Model
+
+Each validator owner is treated as a verified entity.
+
+If fraudulent identity information is proven according to network governance rules, the validator's position may be revoked and protocol-defined penalties may apply.
+
+This mechanism is intended to strengthen trust in enterprise and consortium deployments.
+
+---
+
+# Developer Resources
+
+## Documentation
+
+https://birr.foundation/docs
+
+## Explorer
+
+https://birr.foundation/explorer
+
+## RPC Endpoint
+
+https://rpc.birr.foundation
+
+## APIs
+
+https://birr.foundation/docs
+
+---
+
+# Continuous Integration
+
+Development pipelines, testing, and deployment workflows are maintained through the project's CI/CD infrastructure.
+
+See:
+
+https://github.com/BirrFoundation/BRDPoSChain/tree/dev-upgrade/cicd
+
+---
+
+# Contributing
+
+We welcome contributions from:
+
+- Protocol Engineers
+- Blockchain Developers
+- Cryptographers
+- Security Researchers
+- Validator Operators
+- Infrastructure Engineers
+- Documentation Contributors
+
+If you would like to contribute:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a Pull Request with a clear technical explanation
+
+---
+
+# Community
+
+🌐 Website
+
+https://birr.foundation
+
+📚 Documentation
+
+https://birr.foundation/docs
+
+🔍 Explorer
+
+https://birr.foundation/explorer
+
+💬 Telegram
+
+(Add Telegram Link)
+
+𝕏 X
+
+(Add X Link)
+
+---
+
+# License
+
+See the LICENSE file for licensing information.
+
+---
+
+<p align="center">
+
+**The Financial Operating System for the Internet**
+
+Inspect. Build. Contribute.
+
+</p>
 
 Simple create a pull request along with proper reasoning, we'll get back to you.
 
