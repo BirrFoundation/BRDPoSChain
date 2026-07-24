@@ -1,5 +1,7 @@
 # BRDPoSChain
 
+> **Production Layer 1 • Chain ID 3669 • ~3s Block Time • Independent Network • Full EVM Compatibility**
+
 <p align="center">
 
 ![Mainnet](https://img.shields.io/badge/Mainnet-Production-success)
@@ -10,8 +12,6 @@
 ![Native Coin](https://img.shields.io/badge/Native-BRC-orange)
 
 </p>
-
-> **Production Layer 1 • Chain ID 3669 • ~3s Block Time • Independent Network • Full EVM Compatibility**
 
 <p align="center">
   <img src="./assets/images/brdpos-logo.png" width="180" alt="BRDPoSChain Logo"/>
