@@ -1,56 +1,64 @@
 # BRDPoSChain
 
-![Mainnet](https://img.shields.io/badge/Network-Mainnet-success)
+<p align="center">
+
+![Mainnet](https://img.shields.io/badge/Mainnet-Production-success)
 ![Chain ID](https://img.shields.io/badge/Chain_ID-3669-blue)
-![EVM](https://img.shields.io/badge/EVM-Compatible-purple)
-![License](https://img.shields.io/badge/License-MIT-orange)
-![Solidity](https://img.shields.io/badge/Solidity-Supported-black)
-![Status](https://img.shields.io/badge/Status-Production-brightgreen)
+![Consensus](https://img.shields.io/badge/Consensus-BRDPoS-0A84FF)
+![EVM Compatible](https://img.shields.io/badge/EVM-Compatible-purple)
+![Finality](https://img.shields.io/badge/Finality-~3s-brightgreen)
+![Native Coin](https://img.shields.io/badge/Native-BRC-orange)
+
+</p>
+
+> **Production Layer 1 • Chain ID 3669 • ~3s Block Time • Independent Network • Full EVM Compatibility**
 
 <p align="center">
   <img src="./assets/images/brdpos-logo.png" width="180" alt="BRDPoSChain Logo"/>
 </p>
 
-<h3 align="center">
+<h2 align="center">
 The Protocol Powering BirrChain
-</h3>
+</h2>
 
 <p align="center">
 An independent, EVM-compatible Layer 1 blockchain engineered for digital identity,<br/>
-financial infrastructure, decentralized applications, and global value exchange.
+financial infrastructure, decentralized applications, payments, governance,<br/>
+and global value exchange.
 </p>
 
 <p align="center">
-<a href="https://birr.foundation">Website</a> •
-<a href="https://birr.foundation/docs">Documentation</a> •
-<a href="https://birr.foundation/explorer">Explorer</a> •
-<a href="https://rpc.birr.foundation">RPC Endpoint</a>
+
+<a href="https://birr.foundation">🌐 Website</a> •
+<a href="https://birr.foundation/docs">📚 Documentation</a> •
+<a href="https://birr.foundation/explorer">🔍 Explorer</a> •
+<a href="https://rpc.birr.foundation">⚡ RPC</a>
+
 </p>
 
 ---
 
-# Overview
+# The Financial Operating System for the Internet
 
-BRDPoSChain is the production blockchain protocol behind **BirrChain**, an independent Layer 1 network designed to serve as the financial operating system for the Internet.
+BRDPoSChain is the production blockchain protocol behind **BirrChain**, an independent Layer 1 blockchain designed to provide the infrastructure for digital identity, financial services, decentralized applications, governance, payments, remittance, and digital ownership.
 
-Built with full EVM compatibility, BRDPoSChain enables developers to deploy Ethereum-compatible smart contracts while operating on its own validator network, consensus engine, governance model, and execution environment.
-
-The protocol powers a growing ecosystem including digital identity, payments, remittance, decentralized finance, governance, staking, and enterprise applications.
+Rather than building another cryptocurrency, BirrChain was engineered as a complete blockchain ecosystem where individuals, businesses, developers, and institutions can build, transact, and innovate on a unified protocol.
 
 ---
 
 # Network Specifications
 
 | Property | Value |
-|----------|-------|
+|-----------|-------|
 | Network | Production Mainnet |
+| Protocol | BRDPoSChain |
 | Chain ID | **3669** |
-| Protocol | **BRDPoSChain** |
 | Native Coin | **BRC** |
-| Ecosystem Token | **BRX** |
+| Reward Token | **BRX** |
 | Average Block Time | ~3 Seconds |
 | Consensus | BRDPoS |
-| Current Validators | 5 (Expanding to 28 → 108) |
+| Current Validators | 5 |
+| Validator Roadmap | 5 → 28 → 108 |
 | Smart Contracts | Solidity / EVM Compatible |
 
 ---
@@ -59,17 +67,17 @@ The protocol powers a growing ecosystem including digital identity, payments, re
 
 ## Independent Layer 1
 
-BRDPoSChain operates as its own blockchain network with independent consensus, networking, validator infrastructure, state management, and governance.
+BRDPoSChain operates as a fully independent blockchain network with its own validator infrastructure, consensus protocol, networking layer, governance model, and execution environment.
 
-It is **not a Layer 2**, **not secured by Ethereum**, and **not dependent on Ethereum**, while remaining fully compatible with the Ethereum Virtual Machine (EVM).
+It is **not a Layer 2** and **not dependent on Ethereum**, while maintaining full compatibility with the Ethereum Virtual Machine (EVM), allowing developers to use familiar Ethereum tooling and smart contracts.
 
 ---
 
-## EVM Compatibility
+## Full EVM Compatibility
 
-Developers can use familiar Ethereum tooling without modification.
+Build using the tools you already know.
 
-Supported development stack includes:
+Supported developer stack includes:
 
 - Solidity
 - Hardhat
@@ -79,41 +87,47 @@ Supported development stack includes:
 - web3.js
 - OpenZeppelin
 
+Deploy Ethereum-compatible smart contracts with minimal changes.
+
 ---
 
-## Financial Operating System
+## Financial Infrastructure
 
-BirrChain is designed to provide the infrastructure required for modern decentralized finance and digital identity.
+BirrChain provides the building blocks for modern decentralized financial systems.
 
 The ecosystem includes:
 
 - Digital Identity
-- Self-Custody Wallets
+- Self-Custody Wallet
 - Payments
 - Remittance
 - Staking
 - Governance
-- Smart Contracts
 - Tokenized Assets
+- Developer APIs
+- Smart Contracts
 - Cross-Chain Infrastructure
-- Enterprise APIs
 
 ---
 
-## Enterprise Ready
+## Token DNA
 
-BRDPoSChain was engineered with enterprise integration in mind.
+Token DNA is BirrChain's deterministic transaction fingerprinting system.
 
-Key capabilities include:
+It provides independently verifiable cryptographic fingerprints for supported BRC and BRX transactions, enabling searchable provenance, analytics, and transaction traceability without modifying blockchain consensus.
 
-- Deterministic finality
-- High-throughput consensus
-- Validator accountability
-- Governance framework
-- Identity-aware validator onboarding
-- Private/Public interoperability
-- Modular protocol architecture
-- Upgradeable protocol design
+---
+
+# Protocol Architecture
+
+BRDPoSChain introduces a hierarchical protocol architecture consisting of:
+
+- Validators
+- Epochs
+- SuperBlocks
+- ClusterChains
+
+This layered design supports protocol governance, validator incentives, scalability, deterministic finality, and future network evolution.
 
 ---
 
@@ -121,80 +135,72 @@ Key capabilities include:
 
 BRDPoS (Birr Delegated Proof of Stake) is the consensus protocol powering BRDPoSChain.
 
-The protocol is designed around validator accountability, rapid finality, and long-term network decentralization.
+The protocol is designed around validator accountability, rapid block finality, energy efficiency, and progressive decentralization.
 
-Roadmap:
+Validator expansion roadmap:
 
-- Current production validator set: **5**
-- Initial decentralization target: **28 Validators**
-- Long-term protocol capacity: **108 Validators**
-
----
-
-# Protocol Architecture
-
-BRDPoSChain introduces a hierarchical protocol model built around:
-
-- Validators
-- Epochs
-- SuperBlocks
-- ClusterChains
-
-This layered architecture enables governance, validator incentives, protocol upgrades, and future scalability while maintaining deterministic network operation.
+- **Current:** 5 Production Validators
+- **Phase I:** 28 Validators
+- **Protocol Capacity:** 108 Validators
 
 ---
 
-# Validator Identity (KYC)
+# Validator Identity
 
-Enterprise adoption often requires accountable validator infrastructure.
+For enterprise and consortium deployments, BRDPoSChain supports optional validator identity verification.
 
-BRDPoSChain supports validator identity verification through an optional KYC framework.
+Validator identity enables:
 
-## Overview
-
-Validators may be linked to verified organizational identities while preserving decentralized network operation.
-
-This enables:
-
-- Institutional participation
+- Enterprise participation
+- Institutional trust
 - Regulatory compliance where required
+- Consortium governance
 - Validator accountability
-- Consortium deployments
-- Enterprise governance
 
-## Security Model
+Network governance may revoke validator status when identity verification requirements are violated according to protocol governance rules.
 
-Each validator owner is treated as a verified entity.
+---
 
-If fraudulent identity information is proven according to network governance rules, the validator's position may be revoked and protocol-defined penalties may apply.
+# Enterprise Features
 
-This mechanism is intended to strengthen trust in enterprise and consortium deployments.
+BRDPoSChain was designed to support enterprise-grade blockchain deployments.
+
+Features include:
+
+- Deterministic Finality
+- High Throughput
+- Identity-Aware Validators
+- Governance Framework
+- Modular Architecture
+- Upgradeable Protocol Design
+- Public / Private Interoperability
+- Consortium Support
 
 ---
 
 # Developer Resources
 
-## Documentation
+### Website
+
+https://birr.foundation
+
+### Documentation
 
 https://birr.foundation/docs
 
-## Explorer
+### Explorer
 
 https://birr.foundation/explorer
 
-## RPC Endpoint
+### RPC Endpoint
 
 https://rpc.birr.foundation
-
-## APIs
-
-https://birr.foundation/docs
 
 ---
 
 # Continuous Integration
 
-Development pipelines, testing, and deployment workflows are maintained through the project's CI/CD infrastructure.
+Continuous integration, testing, and deployment pipelines are maintained through the project's CI/CD infrastructure.
 
 See:
 
@@ -216,34 +222,40 @@ We welcome contributions from:
 
 If you would like to contribute:
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Submit a Pull Request with a clear technical explanation
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes with clear documentation.
+4. Submit a Pull Request describing your implementation and motivation.
+
+Every contribution is reviewed to ensure it aligns with the long-term vision, architecture, and security standards of BRDPoSChain.
 
 ---
 
 # Community
 
-🌐 Website
+🌐 **Website**
 
 https://birr.foundation
 
-📚 Documentation
+📚 **Documentation**
 
 https://birr.foundation/docs
 
-🔍 Explorer
+🔍 **Explorer**
 
 https://birr.foundation/explorer
 
-💬 Telegram
+⚡ **RPC**
 
-(Add Telegram Link)
+https://rpc.birr.foundation
 
-𝕏 X
+💬 **Telegram**
 
-(Add X Link)
+https://t.me/YOUR_TELEGRAM
+
+𝕏 **X (Twitter)**
+
+https://x.com/YOUR_ACCOUNT
 
 ---
 
@@ -255,12 +267,8 @@ See the LICENSE file for licensing information.
 
 <p align="center">
 
-**The Financial Operating System for the Internet**
+## The Financial Operating System for the Internet
 
-Inspect. Build. Contribute.
+**Inspect. Build. Contribute.**
 
 </p>
-
-Simple create a pull request along with proper reasoning, we'll get back to you.
-
-Our Channels : [Telegram Developer Group](https://t.me/birrcoin28)  or [BRC.Dev](https://brc.dev)
